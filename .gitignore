@@ -1,0 +1,12 @@
+node_modules/
+public/bundle.js
+public/frames/
+public/assets/
+public/*.ttf
+out/
+src/plan.js
+sherpa-onnx-whisper-*/
+*.tar.bz2
+silero_vad.onnx
+*.mp4
+*.wav

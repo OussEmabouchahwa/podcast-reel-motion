@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AmiriI;src:url(Amiri-Italic.ttf);font-weight:400}
+@font-face{font-family:AmiriBI;src:url(Amiri-BoldItalic.ttf);font-weight:700}
+@font-face{font-family:Playfair;src:url(Playfair-Italic.ttf);font-style:italic;font-weight:400 900}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#0E3B31}
+#stage{position:absolute;inset:0;transform-origin:50% 50%}
+#stage>*{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#foot{position:absolute;left:0;right:0;bottom:44px;text-align:center;font:italic 400 30px Playfair;letter-spacing:2px}
+</style></head><body><div id="stage"><canvas id="bg" width="1080" height="1920"></canvas><div id="deco"></div><div id="text"></div></div>
+<div id="foot"></div>
+<script type="module" src="bundle.js"></script></body></html>
